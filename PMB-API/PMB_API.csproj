@@ -33,9 +33,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Controllers\" />
-		<Folder Include="Models\" />
+		<!-- Referensi ke Class Library -->
+		<ProjectReference Include="..\PMB-LIB\PMB-LIB.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="Config\" />
-		<Folder Include="Service\" />
 	</ItemGroup>
 </Project>

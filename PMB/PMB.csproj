@@ -11,4 +11,13 @@
 		<ProjectReference Include="..\PMB-API\PMB_API.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Paket untuk dependency injection (jika diperlukan) -->
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+	</ItemGroup>
+
 </Project>

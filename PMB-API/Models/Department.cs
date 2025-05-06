@@ -1,13 +1,13 @@
 ﻿using System;
 
-public class Jurusan
+public class Department
 {
     public string name { get; set; }
     public string kode { get; set; }
     public string fakultas { get; set; }
     public int kuota { get; set; }
 
-    public Jurusan(string name, string kode, string fakultas, int kuota)
+    public Department(string name, string kode, string fakultas, int kuota)
     {
         this.name = name;
         this.kode = kode;

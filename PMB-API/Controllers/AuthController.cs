@@ -6,7 +6,7 @@ namespace PMB_API;
 
 [ApiController]
 [Route("api/[controller]")]
-public class UserController : ControllerBase
+public class AuthController : ControllerBase
 {
 
 }
