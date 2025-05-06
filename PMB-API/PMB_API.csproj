@@ -34,7 +34,7 @@
 
 	<ItemGroup>
 		<!-- Referensi ke Class Library -->
-		<ProjectReference Include="..\PMB-LIB\PMB-LIB.csproj" />
+		<ProjectReference Include="..\PMB-LIB\PMB_LIB.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
