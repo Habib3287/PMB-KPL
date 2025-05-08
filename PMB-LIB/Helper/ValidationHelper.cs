@@ -1,8 +1,9 @@
 ﻿using System;
 
-public class ValidationHelper
+
+namespace PMB_LIB.Helper
 {
-	public ValidationHelper()
-	{
-	}
+    public class ValidationHelper
+    {
+    }
 }
