@@ -1,4 +1,6 @@
-﻿namespace PMB_Test
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace PMB_Test
 {
     [TestClass]
     public sealed class Test1
